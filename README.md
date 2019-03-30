@@ -9,4 +9,13 @@ Cherry-Project Framework
 
 ------------
 
+## Installation
+
+You can create new Cherry Framework project with Composer by running: 
+`composer create-project cherry-project/framework your-project-name -s dev`
+
+## Usage
+
+Read more in [Core documentation](https://github.com/cherry-framework/core/blob/master/README.md).
+
 **2019 &copy; Cherry-project**

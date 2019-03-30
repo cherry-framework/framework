@@ -1,0 +1,21 @@
+{
+    "name": "cherry-project/framework",
+    "description": "Cherry-Project Framework",
+    "type": "project",
+    "keywords": ["cherry","framework"],
+    "homepage": "https://github.com/ABGEO07/cherry-framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ABGEO",
+            "email": "takalandzet@gmail.com",
+            "homepage": "http://www.abgeo.ga",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0",
+        "cherry-project/core": "^1.0"
+    }
+}

@@ -3,7 +3,7 @@
     "description": "Cherry-Project Framework",
     "type": "project",
     "keywords": ["cherry","framework"],
-    "homepage": "https://github.com/ABGEO07/cherry-framework",
+    "homepage": "https://github.com/cherry-framework/framework",
     "license": "MIT",
     "authors": [
         {

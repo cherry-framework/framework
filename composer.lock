@@ -4,19 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab7c4a0e7799fee8f6879925fa55d155",
+    "content-hash": "5866dea42393cc21ece10bdeb389ad4c",
     "packages": [
         {
             "name": "cherry-project/core",
             "version": "v1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ABGEO07/cherry-core.git",
+                "url": "https://github.com/cherry-framework/core.git",
                 "reference": "cdb99d9620211d84e118371840697fa69c6b524c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ABGEO07/cherry-core/zipball/cdb99d9620211d84e118371840697fa69c6b524c",
+                "url": "https://api.github.com/repos/cherry-framework/core/zipball/cdb99d9620211d84e118371840697fa69c6b524c",
                 "reference": "cdb99d9620211d84e118371840697fa69c6b524c",
                 "shasum": ""
             },
@@ -58,12 +58,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ABGEO07/cherry-logger.git",
+                "url": "https://github.com/cherry-framework/logger.git",
                 "reference": "0fcb09ad1415d5fc0915304097fcd2e8e06bda14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ABGEO07/cherry-logger/zipball/0fcb09ad1415d5fc0915304097fcd2e8e06bda14",
+                "url": "https://api.github.com/repos/cherry-framework/logger/zipball/0fcb09ad1415d5fc0915304097fcd2e8e06bda14",
                 "reference": "0fcb09ad1415d5fc0915304097fcd2e8e06bda14",
                 "shasum": ""
             },
@@ -98,16 +98,60 @@
             "time": "2019-03-05T17:57:31+00:00"
         },
         {
+            "name": "cherry-project/logs-viewer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cherry-framework/logs-viewer.git",
+                "reference": "011481ec3c611edab9f7e684b0fd98e75d101914"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cherry-framework/logs-viewer/zipball/011481ec3c611edab9f7e684b0fd98e75d101914",
+                "reference": "011481ec3c611edab9f7e684b0fd98e75d101914",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cherry\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ABGEO",
+                    "email": "takalandzet@gmail.com",
+                    "homepage": "http://www.abgeo.ga",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Cherry-project Logs Viewer.",
+            "homepage": "https://github.com/",
+            "keywords": [
+                "cherry",
+                "logs",
+                "logs-viewer"
+            ],
+            "time": "2019-03-31T14:08:07+00:00"
+        },
+        {
             "name": "cherry-project/request",
             "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ABGEO07/cherry-request.git",
+                "url": "https://github.com/cherry-framework/request.git",
                 "reference": "83e3a4929b70b40afb1c45dec11415d412041dfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ABGEO07/cherry-request/zipball/83e3a4929b70b40afb1c45dec11415d412041dfd",
+                "url": "https://api.github.com/repos/cherry-framework/request/zipball/83e3a4929b70b40afb1c45dec11415d412041dfd",
                 "reference": "83e3a4929b70b40afb1c45dec11415d412041dfd",
                 "shasum": ""
             },
@@ -145,12 +189,12 @@
             "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ABGEO07/cherry-response.git",
+                "url": "https://github.com/cherry-framework/response.git",
                 "reference": "3ec39fa1ac828162e574b55a945b3228cfb19ddf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ABGEO07/cherry-response/zipball/3ec39fa1ac828162e574b55a945b3228cfb19ddf",
+                "url": "https://api.github.com/repos/cherry-framework/response/zipball/3ec39fa1ac828162e574b55a945b3228cfb19ddf",
                 "reference": "3ec39fa1ac828162e574b55a945b3228cfb19ddf",
                 "shasum": ""
             },
@@ -188,12 +232,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ABGEO07/cherry-router.git",
+                "url": "https://github.com/cherry-framework/router.git",
                 "reference": "28292277f7930f9a42a8242cc82d2e7c2a9d4f0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ABGEO07/cherry-router/zipball/28292277f7930f9a42a8242cc82d2e7c2a9d4f0d",
+                "url": "https://api.github.com/repos/cherry-framework/router/zipball/28292277f7930f9a42a8242cc82d2e7c2a9d4f0d",
                 "reference": "28292277f7930f9a42a8242cc82d2e7c2a9d4f0d",
                 "shasum": ""
             },
@@ -233,12 +277,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ABGEO07/cherry-templater.git",
+                "url": "https://github.com/cherry-framework/templater.git",
                 "reference": "323b4f0278c32e404c0e893ded8984fef5d11bed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ABGEO07/cherry-templater/zipball/323b4f0278c32e404c0e893ded8984fef5d11bed",
+                "url": "https://api.github.com/repos/cherry-framework/templater/zipball/323b4f0278c32e404c0e893ded8984fef5d11bed",
                 "reference": "323b4f0278c32e404c0e893ded8984fef5d11bed",
                 "shasum": ""
             },
@@ -1749,7 +1793,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "cherry-project/logs-viewer": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

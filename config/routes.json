@@ -3,5 +3,10 @@
     "path": "/",
     "method": "GET",
     "action": "Cherry\\Controller\\DefaultController::hello"
+  },
+  "logs": {
+    "path": "/logs",
+    "method": "GET",
+    "action": "Cherry\\Controller\\DefaultController::showLogs"
   }
 }

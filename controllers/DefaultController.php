@@ -2,6 +2,8 @@
 
 namespace Cherry\Controller;
 
+use Cherry\Log\LogViewer;
+
 class DefaultController
 {
     use ControllerTrait;
@@ -9,5 +11,11 @@ class DefaultController
     public function hello()
     {
         $this->render('index');
+    }
+
+    public function showLogs()
+    {
+        $lw = new LogViewer();
+        $lw->render();
     }
 }

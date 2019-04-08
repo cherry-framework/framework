@@ -4,8 +4,51 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5866dea42393cc21ece10bdeb389ad4c",
+    "content-hash": "a2e2191f9dc7ed48c6474421f9fe18e9",
     "packages": [
+        {
+            "name": "cherry-project/console",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cherry-framework/console.git",
+                "reference": "a38c381bf14500d7137b74f6c949e5b7db489792"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cherry-framework/console/zipball/a38c381bf14500d7137b74f6c949e5b7db489792",
+                "reference": "a38c381bf14500d7137b74f6c949e5b7db489792",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cherry\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ABGEO",
+                    "email": "takalandzet@gmail.com",
+                    "homepage": "http://www.abgeo.ga",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CLI Console for Cherry-project",
+            "homepage": "https://github.com/cherry-framework/console",
+            "keywords": [
+                "cherry",
+                "console"
+            ],
+            "time": "2019-04-07T20:07:45+00:00"
+        },
         {
             "name": "cherry-project/core",
             "version": "v1.0.0",
@@ -1794,7 +1837,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "cherry-project/logs-viewer": 20
+        "cherry-project/logs-viewer": 20,
+        "cherry-project/console": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

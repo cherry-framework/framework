@@ -1,6 +1,6 @@
 # Cherry-framework Changelog
 
-## [v2.0.0](https://github.com/cherry-framework/framework/releases/tag/v2.0.0 "v.0.0") (xxxx-xx-xx)
+## [v2.0.0](https://github.com/cherry-framework/framework/releases/tag/v2.0.0 "v.0.0") (2019-04-08)
 
 - Add Bootstrap template to sample page.
 

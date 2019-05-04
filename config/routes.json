@@ -2,11 +2,11 @@
   "homepage": {
     "path": "/",
     "method": "GET",
-    "action": "Cherry\\Controller\\DefaultController::hello"
+    "action": "DefaultController::hello"
   },
   "logs": {
     "path": "/logs",
     "method": "GET",
-    "action": "Cherry\\Controller\\DefaultController::showLogs"
+    "action": "DefaultController::showLogs"
   }
 }

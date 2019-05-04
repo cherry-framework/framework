@@ -1,5 +1,9 @@
 # Cherry-framework Changelog
 
+## [v2.2.0](https://github.com/cherry-framework/framework/releases/tag/v2.2.0 "v2.2.0") (2019-05-04)
+
+- Update to new Cherry [Core](https://github.com/cherry-framework/core) version.
+
 ## [v2.1.0](https://github.com/cherry-framework/framework/releases/tag/v2.1.0 "v2.1.0") (2019-04-21)
 
 - Update Cherry Core and Console versions;
